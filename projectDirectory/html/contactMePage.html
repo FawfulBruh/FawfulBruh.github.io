@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="../css/styleHome.css">
+    <link rel="preload" href="../assets/SocloudyRegular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- My Contact Page! has a form and multiple multimedia links.  --->
+</head>
+<body>
+        <nav class="navSidebar">
+            <a href="index.html">Homepage<br>and Bio</a>
+            <a href="resumePage.html">Resume<br>Page</a>
+            <a href="recommendationsPage.html">Letters of<br>Recommendation</a>
+            <a href="previousWorkPage.html">Previous<br>Work</a>
+            <a href="contactMePage.html">Contact<br>Me</a>
+        </nav>
+        <section id="menuSplit">
+            <div class="pageTitle">
+                <h1>Contact Me</h1>
+                <h2>Website Message</h2>
+            </div>
+            <!--  Re-Used some of my form knowledge to create a user contact form --->
+            <!--  Unfortunately, getting it to actually WORK requires JavaScript --->
+            <!--  And setting up some kind of Gmail API and it's in too deep at my level --->
+            <!--  I just want  to show that I can make a form :) --->
+            <form>
+                <label for="message">Send Me A Message!</label>
+                <textarea id="message" required>Enter message here...</textarea>
+                <fieldset>
+                    <legend>What Type of Message Would You Like to Send?</legend>
+                    <input type="checkbox" id="jobOffers" value="Potential Job Offer">
+                    <label for="jobOffers">Potential Employment Inquiries</label>
+                    <input type="checkbox" id="furtherQuestions" value="User Questions">
+                    <label for="furtherQuestions">Questions About Me or Bug Reports</label>
+                    <input type="checkbox" id="personalMail" value="Personal Mail">
+                    <label for="personalMail">Personal Mail</label>
+                </fieldset>
+                <label for="nameInput">Name</label>
+                <input type="text" id="nameInput" required>
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput" required>
+                <br>
+                <input type="submit" value="Submit!">
+            </form>
+            <div class="pageTitle">
+                <h1>Other Contact Methods</h1>
+                <!-- I added some extra functional links that directly forward the user to some of my pages!   --->
+                <!-- I really hope the phone number one doesn't come back to bite me :/  --->
+                <nav id="otherContactMethods">
+                    <a href="https://github.com/FawfulBruh">Message Me on GitHub!</a>
+                    <a href="mailto:lilithdouglassmith@gmail.com?subject=From%20Your%20Website:%20[Insert Your Name Here!]">Directly Gmail Me!</a>
+                    <a href="sms:6418956682">Send Me a Text Message!</a>
+                </nav>
+
+            </div>
+
+        </section>
+        <img src="../assets/mailPageSideArt.png" alt="Mail Sideart">
+        <!--  I made this image in Canva. Although, I am petty mad at them because they are so desperate --->
+        <!--  To get you to buy a premium membership, they refuse to make actual transparent pngs without a pro subscription --->
+        <!--  At that point, what's the point of a PNG???? --->
+</body>
+</html>

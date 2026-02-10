@@ -1,0 +1,167 @@
+
+@font-face{
+    font-family: soCloudy;
+    src: url("../assets/SocloudyRegular.woff2");
+}
+body {
+    background-image: url("../assets/backgroundPastel.jpg");
+    display: grid;
+    grid-template-columns: 15vw 40vw 30vw;
+    gap: 5vw;
+    .navSidebar{
+        font-family: soCloudy;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        a {
+            background-image: url("../assets/cloudTextureBackground.jpg");
+            font-size: 1.5em;
+            padding: 1em;
+            border: 5px dotted blue;
+            border-radius: 1em;
+            color: black;
+            text-align: center;
+        }
+    }
+
+    .pageTitle {
+        h1 {
+            font-family: soCloudy;
+            font-size: 4em;
+            color: black;
+            text-align: center;
+        }
+        h2 {
+            font-family: soCloudy;
+            font-size: 2em;
+            color: black;
+            text-align: left;
+        }
+   }
+
+    #menuSplit {
+        background-image: url("../assets/cloudTextureBackground.jpg");
+        padding: 1em;
+        border: 0.5em dotted blue;
+        border-radius: 1em;
+        max-width: 40vw
+        }
+
+    #fullMenu {
+        background-image: url("../assets/cloudTextureBackground.jpg");
+        padding: 1em;
+        border: 0.5em dotted blue;
+        border-radius: 1em;
+        width: 70vw;
+        }
+
+    #previousWork{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .downloadLinks , #otherContactMethods {
+        display: flex;
+        flex-direction: column;aa
+    }
+    .downloadLinks > header {
+        font-family: soCloudy;
+        font-size: 1.5em;
+        padding: 1em;
+        margin: 1em;
+    }
+    .downloadLinks > a , #otherContactMethods > a {
+        font-family: soCloudy;
+        background-image: url("../assets/cloudTextureBackground.jpg");
+        font-size: 1.25em;
+        padding: 0.5em;
+        margin: 0.5em;
+        border: 2px dotted blue;
+        border-radius: 1em;
+        color: blue;
+        text-decoration: underline;
+        text-align: center;
+    }
+    p {
+        font-size: 1em;
+        font-family: Tahoma, sans-serif;
+        text-align: center;
+    }
+
+    }
+    img {
+        max-width: 30vw;
+        background-image: url("../assets/cloudTextureBackground.jpg");
+        padding: 1.5em;
+        border: 0.5em dotted blue;
+        border-radius: 1em;
+
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+
+        label , textarea , input , legend {
+            font-size: 1em;
+            font-family: Tahoma, sans-serif;
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        fieldset {
+            height: 4vh;
+            width: 36vw;
+            border: 0.25em dotted blue;
+            border-radius: 0.5em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly
+        }
+
+        #nameInput , #emailInput{
+            height: 2em;
+
+        }
+        #message {
+            height: 4em;
+        }
+
+    }
+    #quotesSection {
+        display: grid;
+        grid-template-columns: 10vw 50vw;
+        align-items: start;
+        justify-content: space-evenly;
+        gap: 5em;
+        .quoteDiv {
+            display: flex;
+            flex-direction: row;
+            padding: 2em;
+            border: 0.5em dotted blue;
+            border-radius: 1em;
+            max-height: 30vh;
+            }
+        }
+        .quotePfp {
+                border: 0.5em dotted blue;
+                border-radius: 10em;
+                max-height: 30vh;
+                max-width: 8vw;
+        }
+
+    }
+    #resume {
+            border: 0px;
+            padding: 0px;
+            max-width: 60vw;
+            max-height: 40vw;
+            align-content: center;
+        }
+}
+
