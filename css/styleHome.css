@@ -159,9 +159,8 @@ body {
     #resume {
             border: 0px;
             padding: 0px;
-            max-width: 60vw;
-            max-height: 40vw;
-            align-content: center;
+            max-width: 45vw;
+            max-height: 30vw;
         }
 }
 
